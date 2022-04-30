@@ -1,4 +1,4 @@
-import {Component} from "@angular/core";
+import {Component,Input} from "@angular/core";
 
 @Component({
   selector: 'ap-photo',
@@ -8,6 +8,6 @@ import {Component} from "@angular/core";
 
 export class PhotoComponent{
 
-  description = 'Camila atualmente é uma grade investidora anjo no ramo da técnologia';
-  url = 'http://simaigualdaderacial.com.br/jantar/wp-content/uploads/2019/05/Camila-Farani.jpg';
+   @Input() description = '';
+   @Input() url = '';
 }
