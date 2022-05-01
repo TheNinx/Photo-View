@@ -5,6 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import {PhotosModule} from "./photos/photos.module";
+import {AppRoutingModule} from "./app.routing.module";
 
 
 
@@ -17,6 +18,7 @@ import {PhotosModule} from "./photos/photos.module";
   imports: [
     BrowserModule,
     PhotosModule,
+    AppRoutingModule
 
   ],
   providers: [],
