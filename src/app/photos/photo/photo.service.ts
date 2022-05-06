@@ -3,7 +3,7 @@ import {Injectable} from "@angular/core";
 import {Photo} from "./photo";
 
 
-const API = "http://localhost:3000/";
+const API = "http://10.1.1.84:3000/";
 
 
 
