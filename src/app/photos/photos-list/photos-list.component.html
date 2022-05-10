@@ -4,9 +4,10 @@
   </form>
 </div>
 
+{{filter}}
 
 
 
 
+<apx-photos [photos]="photos | filterByDescription: filter"></apx-photos>
 
-<apx-photos [photos]="photos"></apx-photos>
