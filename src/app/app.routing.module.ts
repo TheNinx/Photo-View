@@ -5,6 +5,7 @@ import {PhotoFormComponent} from "./photos/photo-form/photo-form.component";
 import {PhotoListResolver} from "./photos/photos-list/photo-list.resolver";
 
 
+
 const ROUTES: Routes = [
 
   {path: 'user/:userName', component: PhotosListComponent, resolve:{
@@ -12,6 +13,7 @@ const ROUTES: Routes = [
     }},
   {path: 'p/add', component: PhotoFormComponent},
   {path: '**', component: PhotosListComponent},
+
 
 
 

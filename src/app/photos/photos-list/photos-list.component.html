@@ -4,10 +4,14 @@
   </form>
 </div>
 
-{{filter}}
 
 
 
 
 <apx-photos [photos]="photos | filterByDescription: filter"></apx-photos>
+
+<app-load-button
+  (click)="load()"
+  [hasMore]="hasmore">
+</app-load-button>
 
